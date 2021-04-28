@@ -25,3 +25,5 @@ class TextAni(Scene):
         self.wait(1.5)
         self.play(Transform(text, equa, run_time=2))
         self.wait(3)
+        self.remove(text)
+
