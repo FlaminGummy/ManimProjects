@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/pulim/Documents/ManimStuff/media/videos/scene/480p15/partial_movie_files/TextAni/3163782288_3168667413_3598313108.mp4'
+file 'file:C:/Users/pulim/Documents/ManimStuff/media/videos/scene/480p15/partial_movie_files/TextAni/1495979052_2804618697_3598313108.mp4'
+file 'file:C:/Users/pulim/Documents/ManimStuff/media/videos/scene/480p15/partial_movie_files/TextAni/1495979052_2941483014_2272534943.mp4'
+file 'file:C:/Users/pulim/Documents/ManimStuff/media/videos/scene/480p15/partial_movie_files/TextAni/1495979052_3451992838_3598313108.mp4'
+file 'file:C:/Users/pulim/Documents/ManimStuff/media/videos/scene/480p15/partial_movie_files/TextAni/1495979052_2848091717_2299470964.mp4'
