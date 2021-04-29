@@ -14,7 +14,8 @@ class SquareToCircle(Scene):
 class TextAni(Scene):
     def construct(self):
         square2 = Square()
-        square2.set_fill(GREEN_D, opacity=0.8,)
+        c1 = Circle(color=BLUE)
+        square2.set_fill(GREEN_D, opacity=0.8)
         square2.set_stroke(ORANGE, width=5)
         text = Text("MANIM")
         text.set_color_by_gradient(GREEN, BLUE, RED)
@@ -24,4 +25,6 @@ class TextAni(Scene):
         self.play(Transform(text, square2, run_time=2))
         self.wait(1.5)
         self.play(Transform(text, equa, run_time=2))
-        
+        self.wait(3)
+        self.play(Transform(text, c1, run_time=2))
+        self.wait()
