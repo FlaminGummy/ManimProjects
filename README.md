@@ -1,3 +1,4 @@
 # ManimProjects
+## _A place for my manim projects to reside._
 
-A place where I keep my
+### Find Manim [here](https://github.com/ManimCommunity/manim/)
