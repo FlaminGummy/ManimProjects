@@ -1,4 +1,5 @@
 from manim import *
+from typing_extensions import runtime
 class SquareToCircle(Scene):
     def construct(self):
         circle = Circle()                   # create a circle
@@ -28,3 +29,20 @@ class TextAni(Scene):
         self.wait(3)
         self.play(Transform(text, c1, run_time=2))
         self.wait()
+
+class TestG(GraphScene):
+    def __init__(self, **kwargs):
+      GraphScene.__init__(
+          self,
+          x_min = -5 * PI,
+          x_max= 5 * PI,
+          y_min= -3,
+          y_max= 3,
+          graph_origin= ORIGIN,
+          **kwargs
+      )
+    def construct(self):
+        self.setup_axes(animate=True)
+        self.wait(3)
+      
+    
