@@ -44,5 +44,6 @@ class TestG(GraphScene):
     def construct(self):
         self.setup_axes(animate=True)
         self.wait(3)
+        self.remove(GraphScene)
       
     
